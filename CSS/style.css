@@ -215,3 +215,94 @@ main .Container {
   color: whitesmoke;
   cursor: pointer;
 }
+
+
+main section .Catagory__heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+main section .Catagory{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main section .Catagory div{
+  width: 250px;
+}
+
+main section .Catagory div .job__types{
+  font-size: 30px;
+  color:rgb(0,30,60);
+  cursor: pointer;
+}
+
+main section .Catagory div p{
+font-weight: 600;
+color:gray;
+}
+
+.Footer__top{
+  background-image: url(../Assets/Job-Searching-Online-11-Best-Practices-You-Need-to-Know-2-2.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Footer__top input{
+  padding: 12px 18px;
+  border: 1px solid black;
+border-radius:5px;
+margin:10px;
+font-size:15px;
+font-weight:600;
+}
+
+
+.Footer__top button{
+  padding:12px ;
+  font-size:15px;
+  font-weight:600;
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius:6px;
+  outline: none;
+}
+
+.Footer__top button:hover{
+  transition:0.5s ease;
+  background:rgb(13, 198, 19);
+  border-radius:50px;
+  color: white;
+}
+
+
+.Footer__bottom{
+  background: rgb(0,30,60);
+  height: 100%;
+  padding:20px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Footer__bottom ul{
+  list-style:none;
+  color: gray;
+}
+.Footer__bottom ul li{
+  margin:10px;
+}
