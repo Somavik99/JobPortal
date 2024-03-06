@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* height: 10000px; */
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  padding: 0 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(211, 208, 208, 0.584);
+  backdrop-filter: blur(10px);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Link__section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.Link__section ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.Link__section div button {
+  background: rgb(230, 229, 229);
+  font-size: 15px;
+  font-weight: bold;
+  width: 80px;
+  border: 1px solid rgb(7, 233, 7);
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.Link__section div button:hover {
+  transition: 0.2s ease-in;
+  transform: scale(1);
+  background: rgb(27, 27, 31);
+  color: whitesmoke;
+}
+
+
+/* Main and main sections */
+
+main .Intro__section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .Intro__section div button {
+  font-weight: bold;
+  background: rgb(230, 229, 229);
+  border: 1px solid rgb(7, 75, 233);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+main .Intro__section div button:hover {
+  transition: 0.2s ease-in;
+  transform: scale(1);
+  background: rgb(7, 75, 233);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+
+main .Logo__Slider {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background: rgb(11, 22, 33);
+}
+main .Logo__Slider .Slider__images {
+  display: inline-flex;
+  overflow: hidden;
+  animation: 8s slide linear infinite;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+main .Logo__Slider ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+main .Logo__Slider ul li img {
+  width: 250px;
+}
+
+main .Logo__Slider p {
+  font-size: 45px;
+  font-weight: 600;
+  color: aliceblue;
+}
