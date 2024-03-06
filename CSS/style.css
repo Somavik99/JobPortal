@@ -98,7 +98,7 @@ main .Logo__Slider {
 main .Logo__Slider .Slider__images {
   display: inline-flex;
   overflow: hidden;
-  animation: 8s slide linear infinite;
+  animation: 10s slide linear infinite;
 }
 
 
