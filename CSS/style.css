@@ -21,6 +21,7 @@ nav {
   align-items: center;
   background: rgba(211, 208, 208, 0.584);
   backdrop-filter: blur(10px);
+  z-index: 100;
 }
 
 a {
@@ -138,9 +139,37 @@ main .Logo__Slider p {
 
 
 main .Card__container .Card div img{
-width:70px
+width:90px
 }
 
-main .Card__container .Card div{
+main .Card__container .Card{
+  /* border:1px solid black; */
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  border-radius: 1rem;
+  padding: 20px;
+  border:2px solid transparent;
+  background: rgb(220, 228, 237);
+}
+
+main .Card__container .Card:hover{
+  transition: 0.2s all ease;
+  border:2px solid rgb(0,30,60);
+}
+
+main .Card__container .Card button{
+  padding: 10px;
+  
+}
+
+main .Card__container{
+  display: grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns:repeat(3,22%);
+  row-gap:20px;
 }
