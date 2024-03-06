@@ -119,14 +119,28 @@ main .Logo__Slider ul {
   align-items: center;
   gap: 50px;
   list-style: none;
+ 
+}
+
+main .Logo__Slider:hover ul{
+  animation-play-state: paused;
 }
 
 main .Logo__Slider ul li img {
-  width: 250px;
+  width: 8vw;
 }
 
 main .Logo__Slider p {
   font-size: 45px;
   font-weight: 600;
   color: aliceblue;
+}
+
+
+main .Card__container .Card div img{
+width:70px
+}
+
+main .Card__container .Card div{
+  display: flex;
 }
