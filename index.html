@@ -12,15 +12,31 @@
   </head>
   <body>
     <nav>
-      <h1>Job Portal</h1>
-      <section class="Link__section">
-        <ul>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 250px;
+        "
+      >
+        <h1>Job Portal</h1>
+        <div class="Menubar" id="Menu">
+          <i class="bi bi-list" style="font-size: 25px"></i>
+        </div>
+        <div class="closeMenu" id="close">
+          <i class="bi bi-x-lg" style="font-size: 25px"></i>
+        </div>
+      </div>
+
+      <section class="Link__section" id="Links">
+        <ul >
           <li><a href="">Employers</a></li>
           <li><a href="">Candidate</a></li>
           <li><a href="">Job</a></li>
           <li><a href="">About Us</a></li>
         </ul>
-        <div>
+        <div >
           <button>SingIn</button>
           <button>LogIn</button>
         </div>
@@ -45,7 +61,7 @@
       </section>
 
       <section class="Logo__Slider">
-        <p style="font-size: 2.2vw;">Featured companies</p>
+        <p style="font-size: 2.2vw">Featured companies</p>
         <ul class="Slider__images">
           <li>
             <img src="./Assets/Capgemini_201x_logo.svg" alt="Capgemini" />
@@ -256,7 +272,14 @@
       <section style="margin-top: 50px">
         <div class="Catagory__heading">
           <h1 style="color: orange">Explore The Top Catagories</h1>
-          <p style="color: gray; width: 650px;font-size: 1.2rem;text-align: center;">
+          <p
+            style="
+              color: gray;
+              width: 650px;
+              font-size: 1.2rem;
+              text-align: center;
+            "
+          >
             At vero eos et accusamus et iusto odio dignissimos.
           </p>
         </div>
@@ -361,5 +384,6 @@
         </div>
       </section>
     </footer>
+    <script src="./JS/script.js"></script>
   </body>
 </html>

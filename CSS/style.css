@@ -11,6 +11,14 @@ body {
   /* height: 10000px; */
 }
 
+.Menubar{
+  display: none;
+}
+
+.closeMenu{
+  display: none;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -232,6 +240,7 @@ main .Container {
   }
 
   .Link__section {
+    display: none;
     flex-direction: column;
   }
   .Link__section ul{
@@ -251,6 +260,9 @@ main .Container {
     width:450px;
     margin-left: 20px;
   }
+  .Menubar{
+    display: block;
+  }
 }
 
 @media only screen and (min-width:0px) and (max-width:687px){
@@ -265,6 +277,13 @@ main .Container {
     width: 250px;
     padding:10px;
     
+  }
+  .Menubar{
+    display: block;
+  }
+  .Link__section {
+    display: none;
+    flex-direction: column;
   }
 }
 
